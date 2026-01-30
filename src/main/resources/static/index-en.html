@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alicia Ortega Muñoz Java Backend Microservices</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<style>
+    /* ===== SELECTOR DE IDIOMA ===== */
+.lang-switcher {
+    position: fixed;
+    top: 1.2rem;
+    right: 1.2rem;
+    z-index: 3000;
+    display: flex;
+    gap: 0.4rem;
+    background: rgba(15, 23, 42, 0.85); /* negro/azul oscuro */
+    backdrop-filter: blur(8px);
+    padding: 0.4rem 0.6rem;
+    border-radius: 50px;
+    border: 1px solid #f59e0b; /* naranja Alicia */
+    box-shadow: 0 4px 14px rgba(245, 158, 11, 0.25);
+    transition: all 0.3s ease;
+}
+
+.lang-switcher:hover {
+    border-color: #d97706;
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.35);
+}
+
+.lang-flag {
+    font-size: 1.4rem;
+    line-height: 1;
+    text-decoration: none;
+    color: #f8fafc; /* blanco suave */
+    background: transparent;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lang-flag:hover {
+    transform: scale(1.12);
+}
+
+.lang-flag.active {
+    box-shadow: 0 0 0 2px #f59e0b, 0 0 10px rgba(245, 158, 11, 0.5);
+    background: rgba(245, 158, 11, 0.1);
+}
+
+</style>
+<body>
+    <!-- Selector de idioma -->
+    <div class="lang-switcher">
+        <a href="index.html" class="lang-flag" title="Español">🇪🇸</a>
+        <a href="index-en.html" class="lang-flag active" title="English">🇬🇧</a>
+    </div>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">&lt;Alicia Ortega Muñoz/&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech">Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="subtitle">Java Backend Developer Microservices</p>
+                <h1>Developer of <span class="highlight">cloud-native microservices</span> built with Java 21 and Spring Boot Core in STS Eclipse</h1>
+                <p class="description">
+                    I develop with <strong>Spring Boot Core in STS Eclipse</strong>, applying cloud-ready patterns and production-quality standards.  
+                    I have migrated architectures from <strong>JDK 8/17 → 21 → 25</strong> and deploy microservices with <strong>OpenFeign</strong>, 
+                    integrating <strong>MySQL and PostgreSQL</strong> in replicable pipelines.  
+                    I share the process in open source: documented repositories, technical mentoring and exclusive content on Ko-fi.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="https://github.com/AliciaJava" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/Foto Alicia .jpg" alt="Alicia Ortega" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="quote">
+                    "Cloud-native architect with Java. I transform complex problems into scalable, maintainable and production-ready distributed systems."
+                </p>
+                <p>
+                    <strong>Java Backend Developer specialized in microservice architectures</strong> with Spring Cloud, 
+                    Docker, Kubernetes and Apache Kafka. I design and implement RESTful APIs following <strong>SOLID</strong> principles, 
+                    design patterns and hexagonal architecture.
+                </p>
+                <p>
+                    Hands-on experience in <strong>enterprise application deployment</strong> with auto-scaling, 
+                    service mesh (Istio), monitoring with Prometheus/Grafana and fault tolerance. 
+                    I work with <strong>Java 21, Spring Boot 3.x, Spring Cloud 2023</strong> and quality tools like 
+                    SonarQube to keep code clean and free of technical debt.
+                </p>
+                <p>
+                    <strong>Self-taught and highly resourceful:</strong> I built my technical profile through certified official training (+2000 h) and thousands of hours of real practice. I started with 24 monolithic repositories and evolved to microservice architectures with Spring Cloud, Docker and Kubernetes.
+                </p>
+                <p>
+                    My learning is continuous: every new service includes design patterns, SOLID principles, automated tests and cloud deployment, with production code and real use cases.
+                </p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number">24</span>
+                        <span class="label">Active Repositories</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">+1040</span>
+                        <span class="label">Mentored Members</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">+2000</span>
+                        <span class="label">Training Hours</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack (igual que ES) -->
+    <!-- Tecnologías -->
+<section id="tech" class="technologies">
+    <div class="container">
+        <h2 class="section-title">Tech Stack</h2>
+        <div class="tech-grid">
+            <!-- Lenguajes -->
+            <div class="tech-category">
+                <h3><i class="fas fa-code"></i> Languages</h3>
+                <div class="tech-items">
+                    <span class="tech-item"><i class="fab fa-java"></i> Java SE/EE (JDK 21)</span>
+                    <span class="tech-item"><i class="fab fa-js"></i> JavaScript</span>
+                </div>
+            </div>
+
+            <!-- IDEs -->
+            <div class="tech-category">
+                <h3><i class="fas fa-laptop-code"></i> IDEs & Environments</h3>
+                <div class="tech-items">
+                    <span class="tech-item">Eclipse</span>
+                    <span class="tech-item">NetBeans</span>
+                    <span class="tech-item"><strong>Spring Tool Suite (STS)</strong></span>
+                </div>
+            </div>
+
+            <!-- Backend Frameworks -->
+            <div class="tech-category">
+                <h3><i class="fas fa-server"></i> Java Frameworks</h3>
+                <div class="tech-items">
+                    <span class="tech-item"><strong>Spring Boot Core</strong></span>
+                    <span class="tech-item">Spring Web</span>
+                    <span class="tech-item">Spring Security</span>
+                    <span class="tech-item">Spring Data JPA</span>
+                    <span class="tech-item">Hibernate</span>
+                    <span class="tech-item">OpenFeign</span>
+                    <span class="tech-item"><strong>Spring Cloud</strong></span>
+                    <span class="tech-item">Lombok</span>
+                    <span class="tech-item">Jakarta Bean Validation</span>
+                    <span class="tech-item">Eureka Server</span>
+                </div>
+            </div>
+
+            <!-- Architecture -->
+            <div class="tech-category">
+                <h3><i class="fas fa-sitemap"></i> Architecture</h3>
+                <div class="tech-items">
+                    <span class="tech-item"><strong>Microservices</strong></span>
+                    <span class="tech-item">Hexagonal Architecture</span>
+                    <span class="tech-item">MVC</span>
+                    <span class="tech-item">Dependency Injection</span>
+                    <span class="tech-item">Maven</span>
+                    <span class="tech-item"><strong>SOLID</strong></span>
+                    <span class="tech-item">Design Patterns</span>
+                </div>
+            </div>
+
+            <!-- Frontend -->
+            <div class="tech-category">
+                <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
+                <div class="tech-items">
+                    <span class="tech-item">HTML5</span>
+                    <span class="tech-item">CSS3</span>
+                    <span class="tech-item">Bootstrap</span>
+                    <span class="tech-item">Thymeleaf</span>
+                </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="tech-category">
+                <h3><i class="fas fa-database"></i> Databases</h3>
+                <div class="tech-items">
+                    <span class="tech-item">MySQL</span>
+                    <span class="tech-item"><strong>PostgreSQL (Production)</strong></span>
+                    <span class="tech-item">H2 Database (Tests)</span>
+                </div>
+            </div>
+
+            <!-- Servers -->
+            <div class="tech-category">
+                <h3><i class="fas fa-server"></i> Servers</h3>
+                <div class="tech-items">
+                    <span class="tech-item">Apache Tomcat</span>
+                    <span class="tech-item">Glassfish</span>
+                </div>
+            </div>
+
+            <!-- Testing -->
+            <div class="tech-category">
+                <h3><i class="fas fa-vial"></i> Testing & Quality</h3>
+                <div class="tech-items">
+                    <span class="tech-item">JUnit</span>
+                    <span class="tech-item">Mockito</span>
+                    <span class="tech-item">Cucumber</span>
+                    <span class="tech-item">Sonar Lite (STS)</span>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="tech-category">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="tech-items">
+                    <span class="tech-item"><i class="fas fa-code-branch"></i> Git</span>
+                    <span class="tech-item"><i class="fab fa-github"></i> GitHub</span>
+                    <span class="tech-item">Postman</span>
+                    <span class="tech-item">Jira</span>
+                </div>
+            </div>
+
+            <!-- Methodologies -->
+            <div class="tech-category">
+                <h3><i class="fas fa-users"></i> Methodologies</h3>
+                <div class="tech-items">
+                    <span class="tech-item"><strong>Scrum</strong></span>
+                    <span class="tech-item">Engineering Best Practices</span>
+                    <span class="tech-item">Quality & Performance Focus</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Projects -->
+<div class="project-content">
+    <h3>Spring Cloud Microservices</h3>
+    <p>Distributed system with synchronous HTTP communication via OpenFeign. 
+       Two independent microservices (Users/Courses) with PostgreSQL and MySQL databases. 
+       Implementation of resilient patterns and Docker containerization in progress.</p>
+    <div class="project-tech">
+        <span>Spring Boot</span><span>Spring Cloud</span><span>OpenFeign</span>
+        <span>PostgreSQL</span><span>MySQL</span><span>Docker</span><span>K8s</span>
+    </div>
+    <div class="project-links">
+			<a
+				href="https://github.com/AliciaJava/ApiRest-MySQL-SpringCloud-Docker-Kubernetes-Usuarios"
+				target="_blank" class="link-demo"> <i class="fab fa-github"></i>
+				MS Usuarios
+			</a> <a href="https://github.com/AliciaJava/ApisRestSpringCloud-PosgresSQL-Docker-kubernetes-Cursos" target="_blank" class="link-demo">
+            <i class="fab fa-github"></i> Courses MS
+        </a>
+    </div>
+</div>
+
+<div class="project-content">
+    <h3>Event-Driven Architecture</h3>
+    <p>Design of asynchronous system using Apache Kafka to decouple services via events. 
+       Upcoming project: topology analysis, producer/consumer strategies and resilience patterns.</p>
+    <div class="project-tech">
+        <span>Apache Kafka</span><span>Spring Boot</span><span>Event-Driven</span>
+        <span>Microservices</span>
+    </div>
+    <div class="project-links">
+        <span class="link-doc" style="color: #666;"><i class="fas fa-clock"></i> Starting Q1 2025</span>
+    </div>
+</div>
+
+<div class="project-content">
+    <h3>Cloud-Native Eureka Server</h3>
+    <p>Migration of Netflix Eureka discovery service to containerized architecture. 
+       Modernizing service discovery with Docker Compose and Kubernetes deployment.</p>
+    <div class="project-tech">
+        <span>Netflix Eureka</span><span>Spring Cloud</span><span>Docker</span>
+        <span>Kubernetes</span><span>Service Discovery</span>
+    </div>
+    <div class="project-links">
+        <a href="https://github.com/AliciaJava/eureka-server" target="_blank" class="link-demo">
+            <i class="fab fa-github"></i> Eureka Server
+        </a>
+        <a href="https://github.com/AliciaJava/eureka-client" target="_blank" class="link-demo">
+            <i class="fab fa-github"></i> Eureka Client
+        </a>
+    </div>
+</div>
+
+    <!-- Community -->
+   <section id="community" class="community">
+    <div class="container">
+        <h2 class="section-title">Community & Resources</h2>
+        <div class="community-grid">
+            <div class="community-card">
+                <i class="fab fa-telegram"></i>
+                <h3>Programming for Beginners Group</h3>
+                <p>Group and individual mentoring to +1040 members in both groups Spain and LATAM</p>
+                <a href="https://t.me/Programacionprincipiantes" target="_blank" class="btn btn-outline">
+                    Join <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <div class="community-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Survival Guide for Beginner Programmers</h3>
+                    <p>Part 1: From Chaos to Clarity. Available in Spanish and English.</p>
+                    <div class="ebook-links">
+                        <a href="/ebooks/guia-parte1-es.pdf" class="btn btn-outline" download>ES <i class="fas fa-download"></i></a>
+                        <a href="/ebooks/guia-parte1-en.pdf" class="btn btn-outline" download>EN <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+
+                <div class="community-card">
+                    <i class="fab fa-github"></i>
+                    <h3>24 Active Repositories</h3>
+                    <p>Real, documented and tested code. From APIs to cloud-native architectures.</p>
+                    <a href="https://github.com/AliciaJava" target="_blank" class="btn btn-outline">
+                        Explore <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="contact-text">Interested in collaborating? Contact me</p>
+            
+            <div class="contact-links">
+                <a href="mailto:aliciaortega1986@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>aliciaortega1986@gmail.com</span>
+                </a>
+                <a href="https://linkedin.com/in/aliciaortega" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/AliciaJava" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://t.me/Programacionprincipiantes" target="_blank" class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <span>Programming for Beginners</span>
+                </a>
+                <a href="https://t.me/QuieroAprenderJava" target="_blank" class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <span>I Want to Learn Java</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Alicia Ortega Java Backend Microservices</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
