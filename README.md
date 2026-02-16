@@ -1,7 +1,7 @@
 # 🚀 Portfolio Profesional – Alicia Ortega  
 ## Java Backend Developer & Microservices Architect
 
-Portfolio web profesional desarrollado con **HTML5, CSS3 y JavaScript vanilla**, desplegado en **GitHub Pages**.  
+Portfolio web profesional desarrollado con **HTML5, CSS3 y JavaScript vanilla**.  
 Incluye versión **bilingüe (Español / Inglés)** y showcase de proyectos enfocados en **arquitectura de microservicios y sistemas distribuidos**.
 
 ---
@@ -12,7 +12,7 @@ Navegación fluida por secciones, diseño **responsive** y cambio de idioma din�
 
 ### Página Principal – Hero Section
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f6227161-7916-4b86-8502-3d68c4c5d9bc" width="800" />
+  
 </p>
 <p align="center">
   <em>Vista general del portfolio con diseño limpio y enfoque profesional.</em>
@@ -22,7 +22,7 @@ Navegación fluida por secciones, diseño **responsive** y cambio de idioma din�
 
 ### Sección Sobre Mí
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9a4759aa-8536-4e35-8af2-a91a49a333d4" width="800" />
+ 
 </p>
 <p align="center">
   <em>Resumen profesional, experiencia y principales competencias técnicas.</em>
@@ -32,45 +32,66 @@ Navegación fluida por secciones, diseño **responsive** y cambio de idioma din�
 
 ### Stack Tecnológico
 <p align="center">
-  <img width="800" alt="Tecnologías y herramientas" src="https://github.com/user-attachments/assets/e039d0e7-5fb8-4c5c-8d1b-78231ce032e4" />
+ 
 </p>
 
 *Visualización clara de skills en Java, Spring Cloud, Docker y tecnologías asociadas.*
 
 ---
 
-## 🚀 Proyectos Destacados
+## 🚀 Proyectos Destacados y Roadmap Profesional
 
-| Proyecto | Descripción | Tech Stack | Repositorio |
-|--------|-------------|-----------|-------------|
-| **Spring Cloud Microservices** | Sistema distribuido con comunicación HTTP sincrónica mediante OpenFeign. Microservicios independientes con bases de datos separadas. | Spring Boot, Spring Cloud, OpenFeign, Docker, PostgreSQL, MySQL | [MS Usuarios](https://github.com/AliciaJava/ApiRestSpringCloud-MySQL-Docker-Kubernetes-Usuarios) · [MS Cursos](https://github.com/AliciaJava/ApisRestSpringCloud-PosgresSQL-Docker-kubernetes-Cursos) |
-| **Event-Driven Architecture** | Arquitectura asíncrona orientada a eventos para desacoplar servicios mediante mensajería. | Apache Kafka, Spring Boot, Microservicios | *En desarrollo – Q1 2025* |
-| **Eureka Server Cloud-Native** | Implementación y containerización de servicio de descubrimiento para entornos distribuidos. | Netflix Eureka, Docker, Kubernetes | [Server](https://github.com/AliciaJava/eureka-server) · [Client](https://github.com/AliciaJava/eureka-client) |
+🔄 Actualmente en Desarrollo
+
+Fortaleciendo conocimientos en Docker y contenedorización.
+
+Construcción de una arquitectura de microservicios con Spring Cloud desplegada en Docker y Kubernetes.
+
+Diseño e implementación de un proyecto end-to-end con Apache Kafka, completamente documentado en inglés.
+
+🛠 Mejora Continua de Proyectos
+
+Refactorización y optimización del proyecto basado en Eureka aplicando mejores prácticas y mejoras arquitectónicas.
+
+Migración de proyectos legacy desde JDK 8 y JDK 17 hacia JDK 21.
+
+Modernización del código y mejora de rendimiento en repositorios existentes.
+
+🎯 Enfoque de Crecimiento Profesional
+
+Arquitectura cloud-native
+
+Patrones de microservicios
+
+Orquestación de contenedores con Kubernetes
+
+Arquitectura orientada a eventos con Kafka
+
+Buenas prácticas en desarrollo backend con Java y Spring
 
 ---
 
 ## 🛠️ Stack Técnico
 
-- **Backend:** Java 21, Spring Boot, Spring Cloud (OpenFeign, Eureka)  
-- **Arquitectura:** Microservicios, RESTful APIs, Event-Driven Architecture  
-- **Bases de Datos:** PostgreSQL, MySQL  
-- **DevOps & Cloud:** Docker, Docker Compose, Kubernetes *(en formación)*  
-- **Mensajería:** Apache Kafka  
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Herramientas:** Git, Maven, Spring Tool Suite (STS), Docker Desktop  
+### Backend
+- Java 21
+- Spring Boot 4
+- Spring Web MVC
+- RESTful API Development
 
----
+### Testing
+- Spring MVC Test
 
-## 🌐 Despliegue
+### Build & Dependency Management
+- Maven
 
-🔗 **GitHub Pages:**  
-https://aliciajava.github.io/portfolio-alicia-ortega
-
-*Aplicación web estática, responsive y con soporte multilenguaje (ES / EN).*
+### Architecture
+- MVC (Model-View-Controller)
 
 ---
 
 ## 📫 Contacto
+Comparto mi proceso en código abierto a través de repositorios documentados en GitHub AliciaJava y mentorizo en mi perfil de Ko-fi: ko-fi.com/aliciaortegamunoz
 
 - 💼 **LinkedIn:** https://www.linkedin.com/in/aliciaortegamu%C3%B1oz/  
 - 📧 **Email:** aliciaortega1986@gmail.com  
