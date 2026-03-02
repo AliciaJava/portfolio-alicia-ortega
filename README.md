@@ -94,8 +94,7 @@ Navegación fluida por secciones, diseño **responsive** y cambio de idioma din�
 ### Backend
 - JDK 21
 - Spring Boot 4
-- Spring Web MVC
-- RESTful API Development
+- Spring Web
 
 ### Frontend
 - HTML5
